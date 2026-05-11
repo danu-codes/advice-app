@@ -25,6 +25,7 @@ button {
     cursor: pointer;
     transition: all 0.3s ease;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
 }
 
 button:hover {
@@ -38,4 +39,42 @@ button:active {
 
 div{
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    padding: 14px 20px;
+    border-radius: 12px;
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+p b {
+    color: #000000;
+    font-size: 16px;
+    background-color: white;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.loader {
+    width: 60px;
+    height: 60px;
+    border: 6px solid #ddd;
+    border-top: 6px solid #7c3aed;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    margin: 100px auto;
+}
+
+@keyframes spin {
+    100% {
+        transform: rotate(360deg);
+    }
 }
