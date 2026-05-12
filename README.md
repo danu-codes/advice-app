@@ -14,6 +14,9 @@ A simple React application that fetches random advice from an API and tracks how
 
 ---
 
+## 🌐 Live Demo
+👉 Try it here: https://danu-codes.github.io/advice-app/
+
 ## 🛠️ Tech Stack
 
 - React (useState, useEffect)
