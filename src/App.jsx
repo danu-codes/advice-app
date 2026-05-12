@@ -19,7 +19,7 @@ function App() {
   return (
 
     <div>
-      {loading ? <h3>Please wait, we are preparing your advice...</h3> : <h3>{advice}</h3>}
+      {loading ? <h3>Please wait, we are preparing our advice...</h3> : <h3>{advice}</h3>}
       <button onClick={getAdvice} disabled={loading}>
         {loading ? "Loading..." : "Get Advice"}
       </button>
